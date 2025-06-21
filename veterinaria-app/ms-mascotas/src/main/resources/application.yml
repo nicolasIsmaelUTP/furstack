@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: ms-mascotas
+    config:
+        import: optional:configserver:http://localhost:8888
+    datasource:
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        url: jdbc:sqlserver://veterinaria-inteligente-server.database.windows.net:1433;databaseName=veterinaria-bd;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30
+        username: veterinaria-admin
+        password: {your_password_here}
