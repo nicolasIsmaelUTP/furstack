@@ -22,6 +22,7 @@
         <module>eureka</module>
         <module>config</module>
         <module>ms-mascotas</module>
+        <module>ms-duenios</module>
     </modules>
 
     <properties>
